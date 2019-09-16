@@ -1,4 +1,30 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+.statis-cards {
+  ion-slide > ion-card {
+    width: 100%;
+    .pull-right {
+      position: absolute;
+      right: 16px;
+      top: 16px;
+    }
+    ion-toggle {
+      --background: rgba(0,0,0,0.3);
+      --background-checked:rgba(255,255,255,0.3);
+    }
+  }
+  ion-icon {
+      font-size: 60px;
+  }
+  .water-card, .light-card {
+    color: #fff;
+    background-image: linear-gradient(to right top, #006eff, #0067ff, #0060ff, #0059ff, #0051ff, #0052ff, #0054ff, #0055ff, #005fff, #0069ff, #0072ff, #007aff);
+    --color: #fff;
+    ion-icon, ion-card-title {
+      color: #fff !important;
+      --color: #fff;
+    }
+  }
+  .light-card {
+    background-image: linear-gradient(to right top, #fff900, #fff200, #ffea00, #ffe300, #ffdc00, #ffda00, #ffd700, #ffd500, #ffd700, #ffd900, #ffdc00, #ffde00);
+  }
+
 }

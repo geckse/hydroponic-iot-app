@@ -9,13 +9,14 @@ import { IonContent } from '@ionic/angular';
 export class DashboardPage implements OnInit {
   @ViewChild('pageContent', { read: IonContent, static: true }) content: IonContent;
 
-  slideOpts: {
-    spaceBetween: 0,
-    slidesPerView: 1.15,
-  };
+  slideOpts;
 
   constructor() {}
   ngOnInit() {
+    this.slideOpts = {
+        spaceBetween: 0,
+        slidesPerView: 2.2,
+      };
   }
 
 }
