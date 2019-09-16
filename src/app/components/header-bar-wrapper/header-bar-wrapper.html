@@ -1,0 +1,30 @@
+<div class="z-fix">
+  <ion-card class="header-bar-titles" *ngIf="subHeader || header && !slideElements">
+    <ion-card-header>
+      <ion-card-subtitle>{{subHeader ? subHeader : '&nbsp;'}}</ion-card-subtitle>
+      <ion-card-title>{{header ? header : '&nbsp;'}}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-slides #headerBarSlide class="header-bar-slider" *ngIf="slideElements" [options]="slideOpts">
+    <ion-slide *ngFor="let slide of slideElements" (click)="slideClickTrigger(slide)">
+      <ion-card-header>
+        <ion-card-subtitle>{{slide.subHeader ? slide.subHeader : '&nbsp;'}}</ion-card-subtitle>
+        <ion-card-title>{{slide.header ? slide.header : '&nbsp;'}}</ion-card-title>
+      </ion-card-header>
+    </ion-slide>
+    <ion-slide>
+      &nbsp;
+    </ion-slide>
+    <ion-slide>
+      &nbsp;
+    </ion-slide>
+    <ion-slide>
+      &nbsp;
+    </ion-slide>
+  </ion-slides>
+<div>
+
+<div class="header-bar-context-wrapper">
+  <ng-content></ng-content>
+</div>

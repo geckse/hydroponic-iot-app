@@ -24,3 +24,39 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+/*
+  Make Menu row container full height for flex box layout
+*/
+ion-menu  {
+  > ion-content {
+    > ion-row {
+      height: 100%;
+    }
+  }
+}
+
+.flex-page {
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  flex-flow: wrap;
+}
+.draw-bottom {
+  align-self: flex-end;
+  display: block;
+  width: 100%;
+}
+.draw-top {
+  align-self: flex-start;
+  display: block;
+  width: 100%;
+}
+
+/*
+  Ionic Components
+*/
+ion-toolbar {
+  --ion-border-color: transparent;
+}

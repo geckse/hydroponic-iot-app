@@ -1,0 +1,16 @@
+<div class="app-header">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button *ngIf="!hideBackBtn" [defaultHref]="backHref" text="" icon="md-arrow-round-back"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title class="shrink-title" [ngClass]="{'unshrink':isOnTop}" *ngIf="header">{{header}}</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button *ngFor="let action of actions" (click)="onActionBtnClick(action)">
+        {{action.title}}
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</div>
