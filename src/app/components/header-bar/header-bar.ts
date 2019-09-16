@@ -9,6 +9,7 @@ import { Observable, fromEvent } from 'rxjs';
 export class HeaderBarComponent implements OnInit {
 
   @Input() hideBackBtn;
+  @Input() showMenuBtn;
   @Input() showProfileBtn;
   @Input() backHref;
   @Input() fixed;
