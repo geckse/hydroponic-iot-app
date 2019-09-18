@@ -1,5 +1,7 @@
 {
   "name": "hydroponic-iot-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
