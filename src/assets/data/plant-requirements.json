@@ -1,0 +1,442 @@
+[{
+    "name": "Ambra radicchio",
+    "requirements": {
+      "ph": "5.5-6.5",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Artichoke",
+    "requirements": {
+      "ph": "6.5-7.5",
+      "cf": "8-18",
+      "ec": "0.8-1.8",
+      "ppm": "560-1260"
+    }
+  },
+  {
+    "name": "Asparagus",
+    "requirements": {
+      "ph": "6.0-6.8",
+      "cf": "14-18",
+      "ec": "1.4-1.8",
+      "ppm": "980-1260"
+    }
+  },
+  {
+    "name": "Bean",
+    "requirements": {
+      "ph": "6.0",
+      "cf": "20-40",
+      "ec": "2-4",
+      "ppm": "1400-2800"
+    }
+  },
+  {
+    "name": "Italian Bush Bean",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Lima Bean",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Pole Bean",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Beetroot",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "8-50",
+      "ec": "0.8-5",
+      "ppm": "1260-3500"
+    }
+  },
+  {
+    "name": "Broad Bean",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "18-22",
+      "ec": "1.8-2.2",
+      "ppm": "1260-1540"
+    }
+  },
+  {
+    "name": "Broccoli",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "28-35",
+      "ec": "2.8-3.5",
+      "ppm": "1960-2450"
+    }
+  },
+  {
+    "name": "Brussell Sprout",
+    "requirements": {
+      "ph": "6.5-7.5",
+      "cf": "25-30",
+      "ec": "2.5-3.0",
+      "ppm": "1750-2100"
+    }
+  },
+  {
+    "name": "Cabbage",
+    "requirements": {
+      "ph": "6.5-7.0",
+      "cf": "25-30",
+      "ec": "2.5-3.0",
+      "ppm": "1750-2100"
+    }
+  },
+  {
+    "name": "Capsicum",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "18-22",
+      "ec": "1.8-2.2",
+      "ppm": "1260-1540"
+    }
+  },
+  {
+    "name": "Carrots",
+    "requirements": {
+      "ph": "6.3",
+      "cf": "16-20",
+      "ec": "1.6-2.0",
+      "ppm": "1120-1400"
+    }
+  },
+  {
+    "name": "Cauliflower",
+    "requirements": {
+      "ph": "6.0-7.0",
+      "cf": "5-20",
+      "ec": "0.5-2.0",
+      "ppm": "1050-1400"
+    }
+  },
+  {
+    "name": "Celery",
+    "requirements": {
+      "ph": "6.5",
+      "cf": "18-24",
+      "ec": "1.8- 2.4",
+      "ppm": "1260-1680"
+    }
+  },
+  {
+    "name": "Collard greens",
+    "requirements": {
+      "ph": "6.5-7.5",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Cucumber",
+    "requirements": {
+      "ph": "5.8-6.0",
+      "cf": "17-25",
+      "ec": "1.7-2.5",
+      "ppm": "1190-1750"
+    }
+  },
+  {
+    "name": "Eggplant",
+    "requirements": {
+      "ph": "5.5-6.5",
+      "cf": "25-35",
+      "ec": "2.5-3.5",
+      "ppm": "1750-2450"
+    }
+  },
+  {
+    "name": "Endive",
+    "requirements": {
+      "ph": "5.5",
+      "cf": "20-24",
+      "ec": "2.0-2.4",
+      "ppm": "1400-1680"
+    }
+  },
+  {
+    "name": "Fodder",
+    "requirements": {
+      "ph": "6.0",
+      "cf": "18-20",
+      "ec": "1.8-2.0",
+      "ppm": "1260-1400"
+    }
+  },
+  {
+    "name": "Garlic",
+    "requirements": {
+      "ph": "6.0",
+      "cf": "14-18",
+      "ec": "1.4-1.8",
+      "ppm": "980-1260"
+    }
+  },
+  {
+    "name": "Leek",
+    "requirements": {
+      "ph": "6.5-7.0",
+      "cf": "14-18",
+      "ec": "1.4-1.8",
+      "ppm": "980-1260"
+    }
+  },
+  {
+    "name": "Lettuce",
+    "requirements": {
+      "ph": "5.5-6.5",
+      "cf": "8-12",
+      "ec": "0.8-1.2",
+      "ppm": "560-840"
+    }
+  },
+  {
+    "name": "Marrow",
+    "requirements": {
+      "ph": "6.0",
+      "cf": "18-24",
+      "ec": "1.8-2.4",
+      "ppm": "1260-1680"
+    }
+  },
+  {
+    "name": "Okra",
+    "requirements": {
+      "ph": "6.5",
+      "cf": "20-24",
+      "ec": "2.0-2.4",
+      "ppm": "1400-1680"
+    }
+  },
+  {
+    "name": "Onions",
+    "requirements": {
+      "ph": "6.0-6.7",
+      "cf": "14-18",
+      "ec": "1.4-1.8",
+      "ppm": "980-1260"
+    }
+  },
+  {
+    "name": "Pak-choi",
+    "requirements": {
+      "ph": "7.0",
+      "cf": "15-20",
+      "ec": "1.5-2.0",
+      "ppm": "1050-1400"
+    }
+  },
+  {
+    "name": "Parsnip",
+    "requirements": {
+      "ph": "6.0",
+      "cf": "14-18",
+      "ec": "1.4-1.8",
+      "ppm": "980-1260"
+    }
+  },
+  {
+    "name": "Pea",
+    "requirements": {
+      "ph": "6.0-7.0",
+      "cf": "8-18",
+      "ec": "0.8-1.8",
+      "ppm": "980-1260"
+    }
+  },
+  {
+    "name": "Sugar Peas",
+    "requirements": {
+      "ph": "6.0-6.8",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Pepino",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "20-50",
+      "ec": "2.0-5.0",
+      "ppm": "1400-3500"
+    }
+  },
+  {
+    "name": "Peppers",
+    "requirements": {
+      "ph": "5.8-6.3",
+      "cf": "20-30",
+      "ec": "2.0-3.0",
+      "ppm": "1400-2100"
+    }
+  },
+  {
+    "name": "Bell peppers",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "20-25",
+      "ec": "2.0-2.5",
+      "ppm": "1400-1750"
+    }
+  },
+  {
+    "name": "Hot Peppers",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "30-35",
+      "ec": "3.0-3.5",
+      "ppm": "2100-2450"
+    }
+  },
+  {
+    "name": "Potato",
+    "requirements": {
+      "ph": "5.0-6.0",
+      "cf": "20-25",
+      "ec": "2.0-2.5",
+      "ppm": "1400-1750"
+    }
+  },
+  {
+    "name": "Pumpkin",
+    "requirements": {
+      "ph": "5.5-7.5",
+      "cf": "18-24",
+      "ec": "1.8-2.4",
+      "ppm": "1260-1680"
+    }
+  },
+  {
+    "name": "Radish",
+    "requirements": {
+      "ph": "6.0-7.0",
+      "cf": "16-22",
+      "ec": "1.6-2.2",
+      "ppm": " 840-1540"
+    }
+  },
+  {
+    "name": "Spinach",
+    "requirements": {
+      "ph": "5.5-6.6",
+      "cf": "18-23",
+      "ec": "1.8-2.3",
+      "ppm": "1260-1610"
+    }
+  },
+  {
+    "name": "Silverbeet",
+    "requirements": {
+      "ph": "6.0-7.0",
+      "cf": "18-23",
+      "ec": "1.8-2.3",
+      "ppm": "1260-1610"
+    }
+  },
+  {
+    "name": "Sweet Corn",
+    "requirements": {
+      "ph": "6.0",
+      "cf": "16-24",
+      "ec": "1.6-2.4",
+      "ppm": "840-1680"
+    }
+  },
+  {
+    "name": "Sweet Potato",
+    "requirements": {
+      "ph": "5.5-6.0",
+      "cf": "20-25",
+      "ec": "2.0-2.5",
+      "ppm": "1400-1750"
+    }
+  },
+  {
+    "name": "Swiss chard",
+    "requirements": {
+      "ph": "6.0 6.5",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Summer Squash",
+    "requirements": {
+      "ph": "5.0-6.5",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Winter Squash",
+    "requirements": {
+      "ph": "5.0-6.5",
+      "cf": "",
+      "ec": "",
+      "ppm": ""
+    }
+  },
+  {
+    "name": "Taro",
+    "requirements": {
+      "ph": "5.0-5.5",
+      "cf": "25-30",
+      "ec": "2.5-3.0",
+      "ppm": "1750-2100"
+    }
+  },
+  {
+    "name": "Tomato",
+    "requirements": {
+      "ph": "5.5-6.5",
+      "cf": "20-50",
+      "ec": "2.0-5.0",
+      "ppm": "1400-3500"
+    }
+  },
+  {
+    "name": "Turnip",
+    "requirements": {
+      "ph": "6.0-6.5",
+      "cf": "18-24",
+      "ec": "1.8-2.4",
+      "ppm": "1260-1680"
+    }
+  },
+  {
+    "name": "Zucchini",
+    "requirements": {
+      "ph": "6.0",
+      "cf": "18-24",
+      "ec": "1.8-2.4",
+      "ppm": "1260-1680"
+    }
+  }
+]

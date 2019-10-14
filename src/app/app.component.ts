@@ -15,6 +15,11 @@ export class AppComponent {
       title: 'Dashboard',
       url: '/dashboard',
       icon: 'home'
+    },
+    {
+      title: 'Plant Catalogue',
+      url: '/plant-catalogue',
+      icon: 'leaf'
     }
   ];
 
