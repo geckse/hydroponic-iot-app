@@ -12,6 +12,8 @@ const routes: Routes = [
     loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.DashboardPageModule)
   },
   { path: 'plant-catalogue', loadChildren: './pages/plant-catalogue/plant-catalogue.module#PlantCataloguePageModule' },
+  { path: 'plant/:slug', loadChildren: './pages/plant-page/plant-page.module#PlantPageModule' },
+
 ];
 
 @NgModule({

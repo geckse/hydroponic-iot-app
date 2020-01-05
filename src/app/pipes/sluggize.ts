@@ -5,6 +5,6 @@ import {Pipe} from '@angular/core';
 })
 export class SluggizePipe {
   transform(value, args) {
-    return value.replace(" ","-").toLowerCase();
+    return value.replace(/\s/g,"-").toLowerCase();
   }
 }

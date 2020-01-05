@@ -18,7 +18,6 @@ export class PlantCataloguePage implements OnInit {
 
   ngOnInit() {
     this.plants = this.plantCatalogue.getPlants();
-    console.log(this.plants);
   }
 
 }

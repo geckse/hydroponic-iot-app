@@ -1,15 +1,26 @@
 :host {
+
+  &[translucent='true'] {
+    ion-toolbar .toolbar-background {
+      transition: all 0.37s ease-in-out !important;
+    }
+  }
   &[translucent='true']:not(.passed-scroll-offset) {
     --background: transparent;
     --ion-background-color: transparent;
     --ion-color-base: transparent !important;
-    --ion-text-color: #fff;
     ion-toolbar {
+      background: transparent;
+      background-color: transparent;
+
       --background: transparent;
       --ion-background-color: transparent;
       --ion-color-base: transparent !important;
     }
     ion-toolbar .toolbar-background {
+      background: transparent;
+      background-color: transparent;
+
       --background: transparent;
       --ion-background-color: transparent;
       --ion-color-base: transparent !important;

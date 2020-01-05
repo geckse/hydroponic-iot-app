@@ -6,7 +6,7 @@
     <br/>
 
     <ion-list class="plant-list" lines="none">
-      <ion-item *ngFor="let plant of plants">
+      <ion-item *ngFor="let plant of plants" routerLink="/plant/{{plant.name | sluggize}}">
         <ion-avatar slot="start" size="large" [style.backgroundColor]="plant.background">
           <img src="/assets/images/{{plant.name | sluggize}}.png">
         </ion-avatar>

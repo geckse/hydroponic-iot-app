@@ -1,0 +1,24 @@
+<ion-content #pageContent scrollEvents="true" fixedHeaderBar="true">
+
+  <ng-container *ngIf="plant">
+  <header-bar [content]="content" [header]="plant.name" backHref="/plant-catalogue" slot="fixed" fixed="true" translucent="true"></header-bar>
+
+  <header-bar-context [header]="plant.name" subHeader="Your Plants Needs">
+
+    <div class="plant-header-image">
+      <img src="/assets/images/{{plant.name | sluggize}}.png">
+    </div>
+    <div class="main">
+      <div class="info-box top">
+        <h3 class="ph-value"><ion-icon name="checkmark"></ion-icon> {{plant.requirements.ph}}</h3>
+        <h3 class="cf-value"><ion-icon name="checkmark"></ion-icon> {{plant.requirements.cf}}</h3>
+        <h3 class="ec-value"><ion-icon name="checkmark"></ion-icon> {{plant.requirements.ec}}</h3>
+        <h3 class="ppm-value"><ion-icon name="checkmark"></ion-icon> {{plant.requirements.ppm}}</h3>
+      </div>
+      <p style="min-height: 2000px;">
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </header-bar-context>
+  </ng-container>
+</ion-content>
