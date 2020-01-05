@@ -2,3 +2,16 @@
   font-size: 1.3rem;
   font-weight: 500;
 }
+:host {
+  .plant-list {
+    ion-item {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+     ion-avatar {
+      width: 64px;
+      height: 64px;
+      padding: 7px;
+    }
+  }
+}

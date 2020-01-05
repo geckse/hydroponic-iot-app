@@ -5,8 +5,11 @@
 
     <br/>
 
-    <ion-list>
+    <ion-list class="plant-list" lines="none">
       <ion-item *ngFor="let plant of plants">
+        <ion-avatar slot="start" size="large" [style.backgroundColor]="plant.background">
+          <img src="/assets/images/{{plant.name | sluggize}}.png">
+        </ion-avatar>
         <ion-label class="ion-text-wrap">
           <h3 class="plant-name">{{plant.name}}</h3>
           <div class="info">
