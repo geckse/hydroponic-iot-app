@@ -4,30 +4,11 @@
   <header-bar-context header="Dashboard" subHeader="Welcome Back!">
 
 
-    <ion-slides class="statis-cards" [options]="slideOpts">
-      <ion-slide>
-      <ion-card class="ion-text-start water-card">
-        <ion-card-header>
-          <ion-icon name="water"></ion-icon>
-          <ion-card-title>Pumps</ion-card-title>
-          <div class="pull-right">
-            <ion-toggle></ion-toggle>
-          </div>
-        </ion-card-header>
-      </ion-card>
-    </ion-slide>
-    <ion-slide>
-    <ion-card class="ion-text-start light-card">
-      <ion-card-header>
-        <ion-icon name="bulb"></ion-icon>
-        <ion-card-title>Light</ion-card-title>
-        <div class="pull-right">
-          <ion-toggle></ion-toggle>
-        </div>
-      </ion-card-header>
-    </ion-card>
-  </ion-slide>
-  </ion-slides>
-  <div style="height: 3000px;"></div>
+    <div class="ion-padding">
+      <h2>Kitchen shelf</h2>
+    </div>
+    <hydro-horizontal-rack *ngFor="let row of system.rows" [row]="row"></hydro-horizontal-rack>
+
+
   </header-bar-context>
 </ion-content>

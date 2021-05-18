@@ -6,11 +6,15 @@ import { FormsModule } from '@angular/forms';
 
 import { HeaderBarComponent } from './header-bar/header-bar';
 import { HeaderBarWrapperComponent } from './header-bar-wrapper/header-bar-wrapper';
+
+import { HorizontalRackComponent } from './horizontal-rack/horizontal-rack.component';
+
 import { SluggizePipe } from './../pipes/sluggize';
 
 export const components = [
   HeaderBarComponent,
   HeaderBarWrapperComponent,
+  HorizontalRackComponent
 ];
 
 export const pipes = [

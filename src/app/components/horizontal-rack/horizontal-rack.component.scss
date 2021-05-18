@@ -1,0 +1,133 @@
+:host {
+  ::ng-deep {
+
+    ion-list-header {
+      padding-bottom: 10px;
+    }
+
+    .row-slider {
+      padding-bottom: 40px;
+      ion-slide {
+        height: 150px;
+        width: 140px;
+        &.is-empty .image-wrap {
+          filter: grayscale(100%);
+        }
+        &.is-blurred:not(.is-highlighted) {
+          opacity: 0.9;
+          filter: blur(3px);
+        }
+      }
+      ion-slide .inner {
+        height: 150px;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+        img {
+          max-height: 128px;
+        }
+        .image-wrap {
+          touch-action: none;
+        }
+        h4 {
+          position: absolute;
+          bottom: -32px;
+          max-height: 48px;
+          min-height: 24px;
+          margin: 0px;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          color: #444;
+        }
+        ion-badge {
+          position: absolute;
+          height: 28px;
+          min-width: 28px;
+          line-height: 26px;
+          font-size: 14px;
+          border-radius: 28px;
+          left: 20px;
+          bottom: 10px;
+          z-index: 3;
+        }
+      }
+
+
+      .pipe {
+        background-color: #f0f0f0;
+        height: 50px;
+        width: 102%;
+        left: -1%;
+        position: absolute;
+        bottom: -35px;
+        z-index: -1;
+
+        &:before {
+          content: "";
+          background-color: #ffffff;
+          width: 100%;
+          position: absolute;
+          top: 0px;
+          height: 20px;
+          left: 0px;
+          right: 0px;
+        }
+      }
+      .is-start .pipe {
+        width: calc(100% - 35px);
+        margin-left: 35px;
+        &:after {
+          content: "";
+          background-image: url('/assets/images/cap_left.png');
+          width: 29px;
+          position: absolute;
+          top: 0px;
+          height: 50px;
+          left: -28px;
+        }
+      }
+      .is-end .pipe {
+        width: calc(100% - 35px);
+        margin-right: 35px;
+        &:after {
+          content: "";
+          background-image: url('/assets/images/cap_right.png');
+          width: 29px;
+          position: absolute;
+          top: 0px;
+          height: 50px;
+          right: -28px;
+        }
+      }
+
+      &:after {
+        content: "";
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        height: 17px;
+        left: 0px;
+        right: 0px;
+      }
+      .add-plant-info .inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h4 {
+          padding-top: 40px;
+          max-height: 180px;
+          margin: 0px;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+        }
+      }
+    }
+  }
+}
